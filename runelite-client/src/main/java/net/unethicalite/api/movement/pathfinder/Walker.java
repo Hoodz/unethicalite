@@ -419,7 +419,7 @@ public class Walker
 		return calculatePath(startPoints, destination.toWorldArea());
 	}
 
-	private static List<WorldPoint> buildPath(
+	public static List<WorldPoint> buildPath(
 			List<WorldPoint> startPoints,
 			WorldArea destination,
 			boolean avoidWilderness,
